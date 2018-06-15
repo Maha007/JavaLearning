@@ -8,7 +8,7 @@ public class MethodReturn {
 			
 			studentName = "John";
 			grade = findGrades(90);
-			displayGrades(studentName, grade);
+			displayGrades(studentName, grade);	
 			
 			studentName = "Tom";
 			grade = findGrades(80);
@@ -25,8 +25,10 @@ public class MethodReturn {
 				grade = "C";
 			} else {
 				grade = "D";
+			
 			}
 			return grade;
+			
 		}
 		
 		public static void displayGrades(String studentName, String grade) {

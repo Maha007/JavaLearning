@@ -8,7 +8,6 @@ public class InheritanceDemo {
 	
 		InheritanceCars c1 =  new InheritanceCars(speed);
 		c1.increaseSpeed();
-
 		
 		InheritanceAUDI Audi1 = new InheritanceAUDI(speed);
 		Audi1.increaseSpeed();
@@ -17,7 +16,5 @@ public class InheritanceDemo {
 		Audi2.decreaseSpeed();
 		Audi2.DisplayNavigation();
 	}
- 
-	
-	
+ 		
 }

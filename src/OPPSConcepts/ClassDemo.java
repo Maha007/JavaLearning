@@ -4,14 +4,14 @@ public class ClassDemo {
 
 		public static void main(String[] args) {
 			//Creating the object of CarClass
-			// new : Create and initialize the object
-			CarClass Audi = new CarClass (); 
+			// keyword new : Create and initialize the object
+			ClassCar Audi = new ClassCar (); 
 			Audi.setMake("Audi");
 			System.out.println("Make of Audi is: " + Audi.getMake());
 			
 			System.out.println("Model of Audi is: " + Audi.getModel());
 			
-			CarClass  Honda= new CarClass ();
+			ClassCar  Honda= new ClassCar ();
 			Honda.setMake("Honda");
 			System.out.println("Make of Honda is: " + Honda.getMake());
 			
