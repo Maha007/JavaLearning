@@ -4,7 +4,7 @@ public class Conditional {
 
 	public static void main(String[] args) {
 		
-		int score = 91;
+		int score = 70;
 		String grade;
 		
 		if (score > 90){

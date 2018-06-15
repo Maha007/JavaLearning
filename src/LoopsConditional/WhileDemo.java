@@ -6,12 +6,12 @@ public class WhileDemo {
 		
 		int i = 10;
 		
-	/*	while (i < 20) {
+	while (i < 20) {
 			System.out.println(i);
 			i++;
 			
 			} 
-		System.out.println("outside while while"); */
+		System.out.println("outside while"); 
 	
 		do {
 			System.out.println("do while");

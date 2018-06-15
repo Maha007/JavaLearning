@@ -5,7 +5,7 @@ public class SwitchDemo {
 
 	public static void main(String[] args) {
 		
-	int numDays = numOfDays(2020, 2);
+	int numDays = numOfDays(2022, 2);
 	System.out.println("Number of days in given year and month are: " + numDays);
 
 	}
