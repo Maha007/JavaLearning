@@ -3,8 +3,8 @@ package Package1;
 public class AccessModifiersCars {
 	// No Modifier - Variables or objects accessible in the same package
 	int speed;
-	// private - Only in class . We can use this using public setters / getters method.
-	@SuppressWarnings("unused")
+	// private - Only in class . 
+	
 	private int privateSpeed;
 	
 	// public-Anywhere in Java World with importing the package and class
